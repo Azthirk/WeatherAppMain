@@ -1,0 +1,12 @@
+.cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@media (max-width: 914px) {  
+    .cardsContainer{
+        margin-top: 250px;
+    }
+}

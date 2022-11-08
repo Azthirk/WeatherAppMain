@@ -1,0 +1,61 @@
+.inputContainer{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    padding-right: 15px;
+    
+  }
+  
+  .formContainer #inputCiudad {
+    border: 0;
+    border-radius: 5px;
+    background-color: #3f3f57;
+    position: relative;
+    padding-left: 10px;
+    right: 7px;
+    height: 34px;
+  }
+  
+  .formContainer #inputCiudad:focus {
+    outline:none;
+    background-color: #ffff;
+    transition: 1.5s;
+  }
+
+  .buttonx {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .buttonx span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttonx span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttonx:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttonx:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
